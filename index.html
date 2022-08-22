@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="sitio">
+
+    <h1>Perfil de Maria</h1>
+    <img src="./img/WhatsApp Image 2022-08-22 at 11.46.11 AM.jpeg" alt="developer" id="fotoMaria" />
+    <button id="completar-perfil">Datos Personales</button>
+    <button id="obtener-materias">Materias aprobadas</button>
+    <button id="obtener-programa">Plan de estudios</button>
+    <button id="cambiar-tema">Modo Diablo</button>
+
+    <!-- ------------------------------- parte 1 ------------------------------- -->
+    <div class="card-header">
+      <h3>Nombre: <span id="nombre"></span></h3>
+      <h3>Edad: <span id="edad"></span></h3>
+      <h3>Telefono: <span id="telefono"></span></h3>
+      <h3>Mail: <span id="mail"></span></h3>
+    </div>
+    <hr>
+    <!-- ------------------------------- parte 2 ------------------------------- -->
+
+    <section>
+      <h2>Carrera Tech Developer</h2>
+
+      <div id="fila">
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- ------------------------------- parte 3 ------------------------------- -->
+
+    <section>
+      <h2>Sobre mi</h2>
+      <div id="card">
+        <p id="sobre-mi" class="oculto">
+          Estudio la carrera de Tech Developer en Digital House y me estaré recibiendo del primer tramo en Junio 2023. Actualmente estoy buscando una oportunidad para desarrollarme como front-end developer ya que es el area que mas me atrae y en la que muestro mayor facilidad en el aprendizaje.
+        </p>
+        <div>
+          <small>*Apretá la F y visualizá el texto.</small>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="code.js"></script>
+</body>
+
+</html>
